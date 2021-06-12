@@ -15,4 +15,10 @@ import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
   },
 })
 export default class Home extends Vue {}
+
+// const tradeWs = new WebSocket("wss://ws.coincap.io/trades/binance");
+
+// tradeWs.onmessage = function (msg) {
+//   console.log(msg.data);
+// };
 </script>
